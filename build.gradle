@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'con.certificacion.prueba'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.33'
+    compile group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.33'
+    compile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.33'
+    compile group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.23'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.guava:guava:26.0-jre'
+}
