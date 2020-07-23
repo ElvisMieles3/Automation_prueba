@@ -7,4 +7,4 @@ Feature: yo como usuario del servicio
     When el ingresa la informacion para ingresar
       | nombre       | apellido      | correoElectronico              | contrasena | fechaNacimiento |
       | Elvis Miguel | Mieles Guarin | elmielesguarin@poligran.edu.co | Poli*2019  | 1996-03-04      |
-    Then el usuario debe ver el nombre Bienvenido Elvis Miguel Mieles Guarin
+    Then el usuario debe ver el mensaje Bienvenido Elvis Miguel Mieles Guarin

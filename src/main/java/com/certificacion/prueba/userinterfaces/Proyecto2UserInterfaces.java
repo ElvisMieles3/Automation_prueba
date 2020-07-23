@@ -13,18 +13,20 @@ public class Proyecto2UserInterfaces {
             .the("Digita el correo del usuario").located(By.name("email"));
     public static final Target INGRESA_CONTRASENA = Target
             .the("Digita la contraseña del usuario").located(By.name("password"));
+
     public static final Target INGRESA_FECHA_NACIMIENTO = Target
             .the("Digita la fecha de nacimiento del usuario").located(By.name("birthdate"));
+
 
     public static final Target SELECCIONA_EL_SEXO = Target.the("selecciona el sexo")
             .locatedBy("//div[@class='radio']//option[.='{0}']");
 
-    public static final Target SELECCIONA_EL_SEXO_MASCULINO = Target.the("selecciona el sexo masculino")
+    public static final Target SELECCIONA_EL_SEXO_MASCULINO = Target
+            .the("selecciona el sexo masculino")
             .located(By.name("man"));
-
 
     public static final Target SELECCIONA_EL_BOTON_CREAR_CUENTA = Target.
             the("selecciona el botón crear cuenta")
-            .locatedBy("//button[@class='btn btn-default']");
+            .locatedBy("//*[text() = 'Crear cuenta']");
 
 }

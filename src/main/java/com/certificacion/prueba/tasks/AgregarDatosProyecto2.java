@@ -1,5 +1,6 @@
 package com.certificacion.prueba.tasks;
 
+import com.certificacion.prueba.interation.WaitInteration;
 import com.certificacion.prueba.models.DatosRegistro;
 import com.certificacion.prueba.userinterfaces.Proyecto2UserInterfaces;
 import net.serenitybdd.screenplay.Actor;

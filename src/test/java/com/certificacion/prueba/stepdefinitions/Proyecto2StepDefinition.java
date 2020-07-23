@@ -1,6 +1,8 @@
 package com.certificacion.prueba.stepdefinitions;
 
+import com.certificacion.prueba.interation.WaitInteration;
 import com.certificacion.prueba.models.DatosRegistro;
+import com.certificacion.prueba.questions.RegistrarProyecto2;
 import com.certificacion.prueba.tasks.AbrirNavegador;
 import com.certificacion.prueba.tasks.AgregarDatosProyecto2;
 import cucumber.api.java.Before;
@@ -12,12 +14,13 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.Cast;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.thucydides.core.annotations.Managed;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
-import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
-import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.*;
 
 public class Proyecto2StepDefinition {
 
@@ -42,10 +45,12 @@ public class Proyecto2StepDefinition {
 
     }
 
-    @Then("^el usuario debe ver el nombre Bienvenido Elvis Miguel Mieles Guarin$")
-    public void elUsuarioDebeVerElNombreBienvenidoElvisMiguelMielesGuarin() {
+    @Then("^el usuario debe ver el mensaje (.*)$")
+    public void elUsuarioDebeVerElMensaje(String descripcionPoPup) throws Exception {
 
+        Thread.sleep(2000);
+        Alert alert = miNavegador.switchTo().alert();
+        theActorInTheSpotlight().should(seeThat(RegistrarProyecto2.mensaje(alert.getText()),
+                org.hamcrest.Matchers.is(descripcionPoPup)));
     }
-
-
 }
