@@ -1,22 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.certificacion.prueba.Automation" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-23T05:07:36" hostname="DESKTOP-GTQSEFK" time="17.864">
+<testsuite name="com.certificacion.prueba.Automation" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-07-23T06:17:44" hostname="DESKTOP-GTQSEFK" time="72.301">
   <properties/>
-  <testcase name="Selects" classname="com.certificacion.prueba.Automation" time="9.328"/>
-  <testcase name="metodoLinkTest" classname="com.certificacion.prueba.Automation" time="8.536"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 6074
+  <testcase name="VentanasEmergentes" classname="com.certificacion.prueba.Automation" time="8.67"/>
+  <testcase name="PromptTest" classname="com.certificacion.prueba.Automation" time="8.48"/>
+  <testcase name="NuevaPestana" classname="com.certificacion.prueba.Automation" time="7.515"/>
+  <testcase name="Iframes" classname="com.certificacion.prueba.Automation" time="7.731"/>
+  <testcase name="Selects" classname="com.certificacion.prueba.Automation" time="8.081"/>
+  <testcase name="MoverScroll" classname="com.certificacion.prueba.Automation" time="7.944"/>
+  <testcase name="metodoLinkTest" classname="com.certificacion.prueba.Automation" time="8.375"/>
+  <testcase name="Alerts" classname="com.certificacion.prueba.Automation" time="7.565"/>
+  <testcase name="Clicks" classname="com.certificacion.prueba.Automation" time="7.94"/>
+  <system-out><![CDATA[Some prompt?
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29159
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595480858.265][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-jul 23, 2020 12:07:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1595485067.292][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:17:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 25058
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 36078
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1595480866.869][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-jul 23, 2020 12:07:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1595485074.824][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:17:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 10172
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485083.507][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 46969
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485090.653][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 34529
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485098.490][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 7050
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485106.599][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 45706
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485114.523][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 23063
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485122.797][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29802
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595485130.378][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 1:18:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
