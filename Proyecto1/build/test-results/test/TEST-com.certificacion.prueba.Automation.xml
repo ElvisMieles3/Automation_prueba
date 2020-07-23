@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.certificacion.prueba.Automation" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-23T05:07:36" hostname="DESKTOP-GTQSEFK" time="17.864">
+  <properties/>
+  <testcase name="Selects" classname="com.certificacion.prueba.Automation" time="9.328"/>
+  <testcase name="metodoLinkTest" classname="com.certificacion.prueba.Automation" time="8.536"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 6074
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595480858.265][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 12:07:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 25058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1595480866.869][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
+jul 23, 2020 12:07:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
